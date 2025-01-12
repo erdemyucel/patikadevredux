@@ -1,0 +1,64 @@
+.receipt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    width:400px;
+    margin : 10px auto;
+    padding: 10px;
+  }
+  
+  .receipt-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .receipt-items {
+    width: 100%;
+  }
+  
+  .receipt-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  
+  .product-name,
+  .product-amount,
+  .product-price {
+    font-weight: bold;
+  }
+  
+  .product-price {
+    color: green;
+  }
+  
+  .divider {
+    width: 100%;
+    border: none;
+    border-top: 2px solid black;
+    margin: 1rem 0;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .total-label {
+    font-size: 1.5rem;
+  }
+  
+  .total-price {
+    color: green;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  

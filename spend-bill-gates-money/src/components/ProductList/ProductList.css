@@ -1,0 +1,12 @@
+.product-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(199, 190, 179, 0.352);
+    width: 100%;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

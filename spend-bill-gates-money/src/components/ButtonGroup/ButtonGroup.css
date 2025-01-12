@@ -1,0 +1,35 @@
+.cell{
+    background-color: #ead7dc;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    margin-right:20px ;
+    cursor: pointer;
+}
+
+.buy{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+    width: 70px;
+    height: 40px;
+    margin-left:20px ;
+    cursor: pointer;
+}
+
+.toogle-box{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.toogle-box input{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+}
